@@ -30,3 +30,17 @@
 # plt.bar(X_Axis_Points,Y_Axis_Points , color='r' ,  width = 0.1 )                    or                   plt.barh(X_Axis_Points,Y_Axis_Points)   <---  This line is used to draw the bar chart in horizontal way 
 # plt.show()
 #
+# Below is an example program where the iris data is being analysed by using the scatter plot 
+#
+# import matplotlib.pyplot as plt                           <--- Importing pyplot from matplotlib as plt 
+# from sklearn.datasets import load_iris                    <--- load_iris is a normal function that is used commonly which is used to load iris data set from the sklearn.datasets ; sklearn is a machine learning library that is used for simple ML algorithms like linear regression, classification, Support Vector Machine etc it'doesn't have the capacity to handle large data sets 
+# iris=load_iris()                                          <--- iris is an object in this object iris data is stored 
+# sepal_length = iris.data[:,0]                             <--- Extracting the sepal length (all rows , 0th index column data)
+# petal_length = iris.data[:,1]                             <--- Extracting the petal length (all rows , 1st index column data)
+# plt.scatter(sepal_length,petal_length)                    <--- Plotted by using the scatter function 
+# plt.xlabel("Sepal Length (cm)")                           <--- Defining the axis on the graph where the data should have to plotted 
+# plt.ylabel("Petal Length (cm)")                           <--- Same here too 
+# plt.title("Sepal Length vs Petal Length is Iris Dataset") <--- Title of the plot or graph 
+# plt.grid(True)                                            <--- Grid function 
+# plt.show()                                                <--- Showing the plot or graph 
+#
