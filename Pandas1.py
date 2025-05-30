@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Pandas vs Numerical Python 
 # Pandas is mainly used for reading CSV files , Filling missing values , Labelling purpose , Cleansing ect (Data Analysis )
 # Numerical Python is for powerful calculation of different types of tensors or scalars or 2-D or N-D dimensions of data (Scientific Computing )
