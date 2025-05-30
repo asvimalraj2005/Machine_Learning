@@ -20,7 +20,7 @@
 # print(myvar)                                     <--- Printing the values inside the converted dataframe 
 #
 # Series function in pandas 
-# import pandas as pd
+# import pandas as pdd
 # a = [ 1 , 7 , 2 ]
 # myvar = pd.Series(a)               # A series is like a column in a table 
 # print(myvar)                       # It is a one-dimensional array holding data of any type 
